@@ -8,7 +8,7 @@ import com.alibaba.dashscope.common.MessageManager;
 import com.alibaba.dashscope.common.Role;
 import com.alibaba.dashscope.utils.Constants;
 public class AIGC {
-    private static String apiKey="sk-8637b8c64394444695727cb7846f5510";
+    private static String apiKey="阿里的openai";
     public static String query(String queryMessage) {
         Constants.apiKey = apiKey;
         try {

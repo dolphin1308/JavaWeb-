@@ -20,7 +20,7 @@ public class DBUtil {
         }
     }
     private static void init(){
-        String sql="create database if not exists hospital";
+        String sql="create database if not exists book";
         executeUpdate(sql,null);
         url="jdbc:mysql://localhost:3306/hospital?characterEncoding=utf8&serverTimezone=UTC";
     }

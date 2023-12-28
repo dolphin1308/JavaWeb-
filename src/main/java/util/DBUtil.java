@@ -7,7 +7,7 @@ import java.util.HashMap;
 public class DBUtil {
     private static  String url="jdbc:mysql://localhost:3306/book?characterEncoding=utf8&serverTimezone=UTC";
     private static final String user="root";
-    private static final String password="pxx10086";
+    private static final String password="自己的MySQL密码";
     private static Connection conn=null;
     private static PreparedStatement ps=null;
     private static ResultSet rs=null;

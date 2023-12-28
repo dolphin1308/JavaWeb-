@@ -8,9 +8,9 @@ import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
 public  class MyMail {
-    private static final String from="2787423839@qq.com";
+    private static final String from="QQ邮箱";
     private static final String host = "smtp.qq.com";
-    private static final String password = "fkdmbnccessnddch";
+    private static final String password = "邮箱申请到的秘钥";
     public static boolean sendMail(String to, String content){
         Properties prop = new Properties();
         prop.setProperty("mail.host", host);
